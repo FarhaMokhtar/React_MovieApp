@@ -36,6 +36,8 @@ function MovieDetails() {
                             </div>
                         <p className="card-text"><small className="text-body-secondary">{Movie?.release_date}</small></p>
                         <a href={Movie?.homepage}>Website</a>
+                        <i className="fa-regular fa-heart"></i>
+
                     </div>
                 </div>
             </div>
